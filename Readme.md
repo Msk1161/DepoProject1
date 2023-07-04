@@ -30,8 +30,9 @@
 >> 6 - ===> yapilan tum degisiklikler listede de gorunsun.
 
 ### Proje Hazirlanirken:
-> - **Inheritance** yöntemi kullanılarak method kolla ana methodlar çalıştırılmıştır.
-> - **ncop** ile get ve set methodlarini kullanarak datalari guncelleme ve data okumalar yaptik.
+> - **Inheritance** yöntemi kullanıldı.
+> - **Encapsulation** methodu ile diğer class'lardan erişimi engellemiş olduk.
+> - **geter-seter** methodlarını kullanarak data alma veya güncelleme yapıldı.
 > - Yine Methodlar class’ini urunler class’ina **extends** yaparak method kolsuz kullanimi sagladik.
 
 ### Kullanılan Methodlar ve içerikleri
