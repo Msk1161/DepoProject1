@@ -9,11 +9,11 @@
 ### Proje İçeriği:
 > - Bir market veya fabrika için uygulanan bir depo uygulamasıdır.
 > ### A - Öncelikle ürün tanımlaması yapılmalı. 
-> - ID, urunIsmi, uretici, miktar, birim ve raf (6 adet fields mevcut).
+> - ID, urunIsmi, uretici, miktar, birim ve raf (raf için 6 adet raf ismi mevcut).
 > ### B - methodlar oluşturulmalı.
->>  1 - urunTanımlama() ==> 
+>>  1 - urunTanimlama() ==> 
 > - urunun ismi, ureticisi ve birimi girilecek.
-> - id otomatik oluşturulmali ve benzersiz olmalı
+> - id otomatik oluşturulmalı ve benzersiz olmalı
 > - RAF="-" ve Miktar=0 default degerleri girilmeli
 >>  2 - urunListele() ==> 
 > - Tanimlanan urunler listelenecek. 
@@ -33,7 +33,8 @@
 > - **Inheritance** yöntemi kullanıldı.
 > - **Encapsulation** methodu ile diğer class'lardan erişimi engellemiş olduk.
 > - **geter-seter** methodlarını kullanarak data alma veya güncelleme yapıldı.
-> - Yine Methodlar class’ini urunler class’ina **extends** yaparak method kolsuz kullanimi sagladik.
+> - Yine Methodlar class’ini urunler class’ina **extends** yaparak method kolsuz **geter** ve **seter**'ların kullanımını sagladık.
+> - **github** kullanılarak yapılan güncellemeler bütün grubun kullanımına sunuldu.
 
 ### Kullanılan Methodlar ve içerikleri
 > - 1- **menu()** ==> Ana menu ve giris numarasina gore diger methodlara yonlendirebilecek.
