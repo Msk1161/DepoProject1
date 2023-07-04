@@ -1,0 +1,28 @@
+Runner classda Inheritance yontemi kullandik.
+Ve olusturulan metod kolla public olan metodlara ulasilmis olur.
+
+Methodlar class’inda Polymorphisim ile get ve set methodlarini
+kullanarak datalari guncelleme ve data okumalar yaptik.
+Yine Methodlar class’ini urunler class’ina extends yaparak
+method kolsuz kullanimi sagladik.
+
+Methodlar
+1- Menu : Ana menu ve giris numarasina gore diger methodlara yonlendirebilecek.
+2- Urun Tanimlama: Listede olamayan yeni urunlerin eklenmesi
+	3- birimsec(); Kullanicidan girilen urun birimini sormasi -
+	                birim listeside istege bagli olusturulabilir
+	4- urunListeCagir(); bazi durumlarda sadece listenin cagrilmasini istedigimizde kullaniriz.
+5- menuSor(); ana menuye veya cikisa yonlendiriri
+6- urunListele(); var olan urun listesi console'da gostermek icin.
+7- urunGirisi(); Tanimlanan urunlere miktar ve raf eklenmesi icin.
+                eger daha once eklenen bir urun ise sadece miktar eklenir.
+	8- idKontrol(); Urun ID otomatik olusturulur ve silinen ID ler dahi saklanir.
+	                bircok methodda urun ID girisi oldugu icin tek bir method ile ID kontrolu saglamis oluyoruz.
+	9- rafaKoy(); Tanimli raf listesini gosterir ve bu raf listesine gore urune raf ismi eklenir.
+10- urunCikisi(); Girisi yapilan urun listesinden miktar cikisi yapilir. Stoktan fazla cikis yapilamaz.
+                    stokta urun kalmazsa raf listesini de bosaltir. stokta hic urun yoksa da uyari verir.
+11- urunSil(); Tanim listesinden urunu silmek icin kullanilir. Stokta urun varsa silmez ve uyari verir.
+	12- silinenUrunler(); Tanim listsesinden silienn urunleri kayit altina alinir ve istendigi zaman listeler.
+13- silinenUrunleriYazdir(); Tanim listsesinden silienn urunleri consol'da yazdirir.
+14- menuCikisi(); porgramdan tamamen cikmak icin.
+15- hazirTanimliUrunler(); Ozellikle test asamasinda surekli urun eklemek yerine mevcut bir liste olusturur.
